@@ -13,12 +13,15 @@ The R-Squared value of 0.7149 indicates that it is an effective model to predict
 
 ## Summary Statistics on Suspension Coil
 ![Total Summary](Screenshots/MechaCar_Total_Suspension.png)
+
 In total the variance of the suspension coils meets the design specifications as seen in the Total Summary data. 
 ![Linear Regression](Screenshots/MechaCar_Lot_Suspension.png)
+
 However, in the Lot Summary data we see that both Lots 1 and 2 have very low variance, while within the design specifications, but Lot 3, with a variance of over 220 falls why outside the requirement.
 
 ## T-Tests on Suspension Coils
 ![T-Test-Total](Screenshots/MechaCar_Total_T.png)
+
 Overall our Suspension Coil T-test is statistically signicant and we would not reject the null hypothesis.
 Within each lot, the p-value is less than 0.05, and we would reject our Null Hypothesis.
 ![T-Test-Lot](Screenshots/MechaCar_Lot_T.png)
