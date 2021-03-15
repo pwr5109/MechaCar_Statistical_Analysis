@@ -37,3 +37,7 @@ t.test(subset(Suspension_Coil$PSI,Suspension_Coil$Manufacturing_Lot == "Lot2"),m
 
 # t test for lot 3
 t.test(subset(Suspension_Coil$PSI,Suspension_Coil$Manufacturing_Lot == "Lot3"),mu=mean(Suspension_Coil$PSI))
+
+Lot1_t_test <- t.test(Suspension_Coil$PSI,mu=mean(1500),subset(Suspension_Coil,Manufacturing_Lot == 'Lot1',select = PSI))
+Lot2_t_test <- t.test(Suspension_Coil$PSI,mu=mean(1500),subset(Suspension_Coil,Manufacturing_Lot == 'Lot2',select = PSI))
+Lot3_t_test <- t.test(Suspension_Coil$PSI,mu=mean(1500),subset(Suspension_Coil,Manufacturing_Lot == 'Lot3',select = PSI))
