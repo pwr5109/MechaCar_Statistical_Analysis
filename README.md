@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 
 ## Linear Regression for MPG Perdiction
 ![Linear Regression](Screenshots/MechaCar_MPG.png)
@@ -32,13 +32,12 @@ Within each lot, the p-value is less than 0.05, and we would reject our Null Hyp
 
 ## Study Design: Mechacar vs. Competition
 1) How does the MechaCars perform vs. the competion on: City/Hwy MPG; horsepower and safety; all versus price? 
-- We want to determine whether the MechaCar performs better on these metrics vs. the cost of the car, vs. its competition.
-- Metrics that will be measured are: Price, MPG-City, MPG-huighway and Horsepower.
-- Null hypothesis: There is no significant difference between the competition and the MechaCar.
+- We want to determine whether the MechaCar performs better on these metrics vs. the cost of the car vs. its competition. The Metrics that will be measured are: Price, MPG-City, MPG-huighway and Horsepower.
+- Null hypothesis: There is no significant difference between the Competition and the MechaCar.
 2) Alternative Hypothesis: 
-- There is a significant differecne between the competition and the MechaCar.
+- There is a significant differecne between the Competition and the MechaCar.
 - I will need the following metrics for each competitor and the MechaCar: Price, HorsePower, MPG-City, MPG-Highway. 
-- I will run the following tests:
--- Chi Square Test - deterimine frequency between groups.
-- Two Sample T-Tests - Is there a difference between the sample groups?
---Anova sample for the two groups.
+I will run the following tests: 
+- Chi Square Test (To deterimine frequency between groups).\
+- Two Sample T-Tests (To see if there is a difference between the sample groups)
+- Anova sample for the two groups.
