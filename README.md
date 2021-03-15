@@ -38,6 +38,6 @@ Within each lot, the p-value is less than 0.05, and we would reject our Null Hyp
 - There is a significant differecne between the Competition and the MechaCar.
 - I will need the following metrics for each competitor and the MechaCar: Price, HorsePower, MPG-City, MPG-Highway. 
 I will run the following tests: 
-- Chi Square Test (To deterimine frequency between groups).\
+- Chi Square Test (To deterimine frequency between groups).
 - Two Sample T-Tests (To see if there is a difference between the sample groups)
 - Anova sample for the two groups.
